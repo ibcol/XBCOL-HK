@@ -342,6 +342,10 @@
     width: 100%;
 }
 
+.h100 {
+    height: 75px !important;
+}
+
 .btnBk {
     background-color: #000;
 }
@@ -367,8 +371,8 @@
 /* contact */
 .circleImg {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
 }
 
 .fs14 {
@@ -388,7 +392,7 @@
     .mediaCol-md-6 {
         -webkit-box-flex: 0;
         flex: 0 0 46% !important;
-        max-width: 42% !important;
+        max-width: 30% !important;
     }
 }
 
