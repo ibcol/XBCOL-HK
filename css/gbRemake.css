@@ -7,6 +7,22 @@
     color: #0286CA !important;
 }
 
+.textBlack {
+    color: #000 !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right-sm-centre {
+    text-align: right;
+}
+
+.left-sm-centre {
+    text-align: left;
+}
+
 
 .colorBk {
     color: #000 !important;
@@ -309,7 +325,7 @@
     /* font-weight: bold; */
     font-size: 14px;
     line-height: 22px;
-    
+
     width: 100%;
     text-align: center;
 }
@@ -364,8 +380,20 @@
     padding-right: 30px;
 }
 
+.bgBlack {
+    background-color: #000;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
 .fs24 {
     font-size: 24px;
+}
+
+.timeLineContainer {
+    margin: 0 15%;
 }
 
 /* contact */
@@ -386,6 +414,23 @@
 .position {
     font-size: 18px;
 }
+
+.icon .time-line49 {
+    height: 1px;
+    width: 45%;
+    position: absolute;
+    background: lightgrey;
+    top: 16px;
+    right: -20%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .timeline .time-line49 {
+        display: none;
+    }
+}
+
 
 @media only screen and (min-width: 1000px) {
 
@@ -432,6 +477,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .right-sm-centre {
+        text-align: center !important;
+    }
+
+    .sm-centre {
+        text-align: center !important;
+    }
+
+    .left-sm-centre {
+        text-align: center !important;
+    }
+
     .s-homeHeaderTextColor {
         font-size: 4rem !important;
     }
