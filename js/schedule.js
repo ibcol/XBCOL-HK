@@ -102,9 +102,9 @@ var hkbcolFinalists = [
 
 
 var p0 = document.getElementById('p0');
-// var p1 = document.getElementById('p1');
-// var p2 = document.getElementById('p2');
-// var p3 = document.getElementById('p3');
+var p1 = document.getElementById('p1');
+var p2 = document.getElementById('p2');
+var p3 = document.getElementById('p3');
 
 for (let i = 0; i < p0Schedule.length; i++) {
     p0.innerHTML += (
@@ -197,16 +197,39 @@ for (let i = 0; i < openingLeft.length; i++) {
     op.innerHTML += (
         '<div class="w-50 px-0" id="" style="cursor: pointer">' +
         '<div class="cell2" onclick="showWeb(0)">' +
-        '<p class="my-0 fw-700">'+opTime[i]+'</p>' +
-        '<p class="my-0"><b>Team '+openingLeft[i]+'</b></p>'+
+        '<p class="my-0 fw-700">' + opTime[i] + '</p>' +
+        '<p class="my-0"><b>Team ' + openingLeft[i] + '</b></p>' +
         '</div>' +
-        '</div>'+
+        '</div>' +
 
         '<div class="w-50 px-0" id="" style="cursor: pointer">' +
         '<div class="cell2" onclick="showWeb(0)">' +
-        '<p class="my-0 fw-700">'+opTime[i]+'</p>' +
-        '<p class="my-0"><b>Team '+openingRight[i]+'</b></p>'+
+        '<p class="my-0 fw-700">' + opTime[i] + '</p>' +
+        '<p class="my-0"><b>Team ' + openingRight[i] + '</b></p>' +
         '</div>' +
         '</div>'
     );
+}
+
+var pitchDiv = document.getElementById('pitchDiv');
+var expoDiv = document.getElementById('expoDiv');
+
+function showPitch() {
+    if (pitchDiv.style.display === "none") {
+        pitchDiv.style.display = "block";
+    } else {
+        pitchDiv.style.display = "none";
+    }
+}
+
+
+function showExpo() {
+
+    if (expoDiv.style.display === "none") {
+        expoDiv.style.display = "block";
+
+    } else {
+        expoDiv.style.display = "none";
+    }
+
 }
