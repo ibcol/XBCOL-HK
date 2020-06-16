@@ -142,5 +142,5 @@ for (let i = 0; i < p0Schedule.length; i++) {
 }
 
 function showWeb(index) {
-    window.open('https://hk.ibcol.org/2020-HKBCOL-Finalists/' + hkbcolFinalists[index] + '.html');
+    // window.open('https://hk.ibcol.org/2020-HKBCOL-Finalists/' + hkbcolFinalists[index] + '.html');
 }
