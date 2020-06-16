@@ -23,6 +23,11 @@
     text-align: left;
 }
 
+.colorBgGrey {
+    border-color: #A7A7AD !important;
+    background-color: #A7A7AD !important;
+}
+
 
 .colorBk {
     color: #000 !important;
