@@ -144,3 +144,69 @@ for (let i = 0; i < p0Schedule.length; i++) {
 function showWeb(index) {
     // window.open('https://hk.ibcol.org/2020-HKBCOL-Finalists/' + hkbcolFinalists[index] + '.html');
 }
+
+
+var openingLeft = [
+    '102',
+    '009',
+    '634',
+    '220',
+    '380',
+    '258',
+    '118',
+    '236',
+    '917',
+    '755',
+    '487',
+    '506'
+];
+
+var openingRight = [
+    '999',
+    '328',
+    '267',
+    '105',
+    '586',
+    '858',
+    '773',
+    '167',
+    '990',
+    '201',
+    '737',
+    '/'
+];
+
+var opTime = [
+    '10:00',
+    '10:15',
+    '10:30',
+    '10:45',
+    '11:00',
+    '11:15',
+    '11:30',
+    '11:45',
+    '12:00',
+    '12:15',
+    '12:30',
+    '12:45'
+]
+
+var op = document.getElementById('Opening');
+
+for (let i = 0; i < openingLeft.length; i++) {
+    op.innerHTML += (
+        '<div class="w-50 px-0" id="" style="cursor: pointer">' +
+        '<div class="cell2" onclick="showWeb(0)">' +
+        '<p class="my-0 fw-700">'+opTime[i]+'</p>' +
+        '<p class="my-0"><b>Team '+openingLeft[i]+'</b></p>'+
+        '</div>' +
+        '</div>'+
+
+        '<div class="w-50 px-0" id="" style="cursor: pointer">' +
+        '<div class="cell2" onclick="showWeb(0)">' +
+        '<p class="my-0 fw-700">'+opTime[i]+'</p>' +
+        '<p class="my-0"><b>Team '+openingRight[i]+'</b></p>'+
+        '</div>' +
+        '</div>'
+    );
+}

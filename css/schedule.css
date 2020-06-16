@@ -10,6 +10,9 @@
     width: 16.6666666667% !important;
 }
 
+.w-50 {
+    width: 50% !important;
+}
 
 .fw-700 {
     font-weight: 700 !important;
@@ -61,6 +64,17 @@
     border-color: #000000;
     border-style: solid;
     color: #000000;
+}
+
+.cell2 {
+    height: 100% !important;
+    /* align-items: center;
+    text-align: center; */
+    background: #66c2ff;
+
+    border: 1px solid #000000;
+    color: #000000;
+    margin-bottom: 0px;
 }
 
 
