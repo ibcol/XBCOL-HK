@@ -5,7 +5,7 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 44px;
-    display: flex;
+    /* display: flex; */
     color: #000 !important;
     align-items: center;
 }
@@ -17,7 +17,7 @@
     /* font-weight: bold; */
     font-size: 24px;
     line-height: 44px;
-    display: flex;
+    /* display: flex; */
     color: #000 !important;
     align-items: center;
 }
@@ -29,7 +29,7 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
-    display: flex;
+    /* display: flex; */
     color: #000 !important;
     align-items: center;
 }
@@ -47,4 +47,8 @@
 
 .fs-24 {
     font-size: 24px !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
 }
