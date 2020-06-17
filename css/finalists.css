@@ -3,7 +3,7 @@
 }
 
 .line-h-1 {
-    line-height: 1 !important;
+    line-height: 2 !important;
 }
 
 @media  only screen and (max-width: 576px){

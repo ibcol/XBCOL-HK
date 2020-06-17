@@ -28,20 +28,20 @@ var teamIdForRowRight = [
     '035'
 ];
 
-var uniRowLeft = [
-    'CUHK',
-    'HKU',
-    'POLYU',
-    'King George V School',
-    'CITYU',
-    'CITYU',
-    'HKU',
-    'POLYU',
-    'CUHK',
-    'HKU',
-    'CITYU',
-    'POLYU'
-];
+// var uniRowLeft = [
+//     'CUHK',
+//     'HKU',
+//     'POLYU',
+//     'King George V School',
+//     'CITYU',
+//     'CITYU',
+//     'HKU',
+//     'POLYU',
+//     'CUHK',
+//     'HKU',
+//     'CITYU',
+//     'POLYU'
+// ];
 
 
 
@@ -92,36 +92,43 @@ var pjNameRowRight = [
     'temp'
 ];
 
+// var imgLeft = [
+//     'cuhk.png',
+//     'hku.png',
+//     'polyu.png',
+//     'King George V School.png',
+//     'cityu.png',
+//     'cityu.png',
+//     'hku.png',
+//     'polyu.png',
+//     'cuhk.png',
+//     'hku.png',
+//     'cityu.png',
+//     'polyu.png',
+//     ];
+
+// var imgRight = [
+//     'cityu.png',
+//     'cityu.png',
+//     'hku.png',
+//     'hku.png',
+//     'polyu.png',
+//     'hku.png',
+//     'cityu.png',
+//     'cityu.png',
+//     'polyu.png',
+//     'hku.png',
+//     'hsu.png',
+//     'hku.png',
+// ];
+
 var imgLeft = [
-    'cuhk.png',
-    'hku.png',
-    'polyu.png',
-    'King George V School.png',
-    'cityu.png',
-    'cityu.png',
-    'hku.png',
-    'polyu.png',
-    'cuhk.png',
-    'hku.png',
-    'cityu.png',
-    'polyu.png',
+    'hkbcol.png'
     ];
 
 var imgRight = [
-    'cityu.png',
-    'cityu.png',
-    'hku.png',
-    'hku.png',
-    'polyu.png',
-    'hku.png',
-    'cityu.png',
-    'cityu.png',
-    'polyu.png',
-    'hku.png',
-    'hsu.png',
-    'hku.png',
+    'hkbcol.png'
 ];
-
 
 
 
@@ -133,12 +140,12 @@ for (let i = 0; i < teamIdForRowLeft.length; i++) {
         '<div class="col-md-6 col-sm-12">' +
         '<div class="row  justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
-        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgLeft[i]+'" class="">' +
+        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgLeft[0]+'" class="">' +
         '</div>' +
         '<div class="col-8 ">' +
-        '<p class="mx-0 my-0 fs-18 textBlack line-h-1 w-100">'+pjNameRowLeft[i]+'</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>'+pjNameRowLeft[i]+'</b></p>' +
         '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team '+teamIdForRowLeft[i]+'</p>' +
-        '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
+        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
@@ -146,12 +153,12 @@ for (let i = 0; i < teamIdForRowLeft.length; i++) {
         '<div class="col-md-6 col-sm-12">' +
         '<div class="row  justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
-        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgRight[i]+'" class="">' +
+        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgRight[0]+'" class="">' +
         '</div>' +
         '<div class="col-8">' +
-        '<p class="mx-0 my-0 fs-18 textBlack line-h-1 w-100">'+pjNameRowRight[i]+'</p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team '+teamIdForRowRight[i]+'</p>' +
-        '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>'+pjNameRowRight[i]+'</b></p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team '+teamIdForRowRight[i]+'</p>' +
+        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
