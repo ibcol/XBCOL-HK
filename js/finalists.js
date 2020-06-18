@@ -25,7 +25,7 @@ var teamIdForRowRight = [
     '201',
     '737',
     '487',
-    '035'
+    '998'
 ];
 
 // var uniRowLeft = [
@@ -89,7 +89,7 @@ var pjNameRowRight = [
     'Arianee Killer',
     'MiHK-2020',
     'FoodStyle',
-    'temp'
+    'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
 ];
 
 // var imgLeft = [
@@ -124,7 +124,7 @@ var pjNameRowRight = [
 
 var imgLeft = [
     'hkbcol.png'
-    ];
+];
 
 var imgRight = [
     'hkbcol.png'
@@ -136,32 +136,84 @@ var finalists = document.getElementById('finalists');
 
 for (let i = 0; i < teamIdForRowLeft.length; i++) {
     finalists.innerHTML += (
-        '<div class="row mt-2">' +
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="row mt-2" >' +
+        '<div class="col-md-6 col-sm-12" style="cursor: pointer" onclick="openTeamDetailPage(' + i + ')">' +
         '<div class="row  justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
-        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgLeft[0]+'" class="">' +
+        '<img src="./images/2020-HKBCOL-Finalists/uni/' + imgLeft[0] + '" class="">' +
         '</div>' +
         '<div class="col-8 ">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>'+pjNameRowLeft[i]+'</b></p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team '+teamIdForRowLeft[i]+'</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowLeft[i] + '</b></p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team ' + teamIdForRowLeft[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="col-md-6 col-sm-12" style="cursor: pointer" onclick="openTeamDetailPage2(' + i + ')">' +
         '<div class="row  justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
-        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgRight[0]+'" class="">' +
+        '<img src="./images/2020-HKBCOL-Finalists/uni/' + imgRight[0] + '" class="">' +
         '</div>' +
         '<div class="col-8">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>'+pjNameRowRight[i]+'</b></p>' +
-        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team '+teamIdForRowRight[i]+'</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowRight[i] + '</b></p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team ' + teamIdForRowRight[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
         '</div>'
     );
+}
+
+function openTeamDetailPage(index) {
+    var teamDetailPage = [
+        'TrustLand',
+        'Blockchain Credentials',
+        'Digital Entertainment industry benefited from blockchain',
+        'Imposter',
+        'MicroCent',
+        'Blockchain Health Credentials',
+        'Spearchain',
+        'SecureResearch',
+        'BCred: A Blockchain Platform for Academic Credential',
+        'SmartLending',
+        "Khany'iSA: Illuminate South Africa",
+        'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology',
+        'Ukwazi',
+        'Blockchain Health Pass',
+        'Beacon Blockchain Group',
+        'Bchain Network',
+        'Ascension',
+        'Tixra: Blockchain-based Ticketing Platform',
+        'i-Landy',
+        'PhilanChain',
+        'Arianee Killer',
+        'MiHK-2020',
+        'FoodStyle',
+        'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
+    ];
+
+    window.open('./2020-HKBCOL-Finalists/' + teamDetailPage[index] + '.html');
+
+}
+
+function openTeamDetailPage2(index) {
+    var teamDetailPage2 = [
+        'Ukwazi',
+        'Blockchain Health Pass',
+        'Beacon Blockchain Group',
+        'Bchain Network',
+        'Ascension',
+        'Tixra: Blockchain-based Ticketing Platform',
+        'i-Landy',
+        'PhilanChain',
+        'Arianee Killer',
+        'MiHK-2020',
+        'FoodStyle',
+        'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
+    ];
+
+    window.open('./2020-HKBCOL-Finalists/' + teamDetailPage2[index] + '.html');
+
 }

@@ -173,7 +173,7 @@ var openingRight = [
     '990',
     '201',
     '737',
-    '/'
+    '998'
 ];
 
 var opTime = [
