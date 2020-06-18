@@ -6,11 +6,11 @@
     line-height: 2 !important;
 }
 
-@media  only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
     .justify-content-xs-center {
-    -webkit-box-pack: center!important;
-    -ms-flex-pack: center!important;
-    justify-content: center!important;
-    text-align: center;
-}
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+        text-align: center;
+    }
 }
