@@ -88,7 +88,7 @@ var p3Schedule = [
 
 
     '<p class="my-0 fw-700">16:00</p>' +
-    '<p class="my-0"><b>Team / </b></p>'
+    '<p class="my-0"><b>Team 606 </b></p>'
 ];
 
 // total 24
@@ -173,7 +173,7 @@ var openingRight = [
     '990',
     '201',
     '737',
-    '998'
+    '606'
 ];
 
 var opTime = [
