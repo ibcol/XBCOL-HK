@@ -166,54 +166,54 @@ for (let i = 0; i < teamIdForRowLeft.length; i++) {
     );
 }
 
-function openTeamDetailPage(index) {
-    var teamDetailPage = [
-        'TrustLand',
-        'Blockchain Credentials',
-        'Digital Entertainment industry benefited from blockchain',
-        'Imposter',
-        'MicroCent',
-        'Blockchain Health Credentials',
-        'Spearchain',
-        'SecureResearch',
-        'BCred: A Blockchain Platform for Academic Credential',
-        'SmartLending',
-        "Khany'iSA: Illuminate South Africa",
-        'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology',
-        'Ukwazi',
-        'Blockchain Health Pass',
-        'Beacon Blockchain Group',
-        'Bchain Network',
-        'Ascension',
-        'Tixra: Blockchain-based Ticketing Platform',
-        'i-Landy',
-        'PhilanChain',
-        'Arianee Killer',
-        'MiHK-2020',
-        'FoodStyle',
-        'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
-    ];
+// function openTeamDetailPage(index) {
+//     var teamDetailPage = [
+//         'TrustLand',
+//         'Blockchain Credentials',
+//         'Digital Entertainment industry benefited from blockchain',
+//         'Imposter',
+//         'MicroCent',
+//         'Blockchain Health Credentials',
+//         'Spearchain',
+//         'SecureResearch',
+//         'BCred: A Blockchain Platform for Academic Credential',
+//         'SmartLending',
+//         "Khany'iSA: Illuminate South Africa",
+//         'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology',
+//         'Ukwazi',
+//         'Blockchain Health Pass',
+//         'Beacon Blockchain Group',
+//         'Bchain Network',
+//         'Ascension',
+//         'Tixra: Blockchain-based Ticketing Platform',
+//         'i-Landy',
+//         'PhilanChain',
+//         'Arianee Killer',
+//         'MiHK-2020',
+//         'FoodStyle',
+//         'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
+//     ];
 
-    window.open('./2020-HKBCOL-Finalists/' + teamDetailPage[index] + '.html');
+//     window.open('./2020-HKBCOL-Finalists/' + teamDetailPage[index] + '.html');
 
-}
+// }
 
-function openTeamDetailPage2(index) {
-    var teamDetailPage2 = [
-        'Ukwazi',
-        'Blockchain Health Pass',
-        'Beacon Blockchain Group',
-        'Bchain Network',
-        'Ascension',
-        'Tixra: Blockchain-based Ticketing Platform',
-        'i-Landy',
-        'PhilanChain',
-        'Arianee Killer',
-        'MiHK-2020',
-        'FoodStyle',
-        'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
-    ];
+// function openTeamDetailPage2(index) {
+//     var teamDetailPage2 = [
+//         'Ukwazi',
+//         'Blockchain Health Pass',
+//         'Beacon Blockchain Group',
+//         'Bchain Network',
+//         'Ascension',
+//         'Tixra: Blockchain-based Ticketing Platform',
+//         'i-Landy',
+//         'PhilanChain',
+//         'Arianee Killer',
+//         'MiHK-2020',
+//         'FoodStyle',
+//         'Improving the Efficiency of Sustainable Development Practices in Civil Institutions'
+//     ];
 
-    window.open('./2020-HKBCOL-Finalists/' + teamDetailPage2[index] + '.html');
+//     window.open('./2020-HKBCOL-Finalists/' + teamDetailPage2[index] + '.html');
 
-}
+// }
