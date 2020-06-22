@@ -566,7 +566,7 @@
 
     .containerPd20 {
         margin: auto;
-        width: 300px;
+        /* width: 300px; */
         text-align: center !important;
     }
 
