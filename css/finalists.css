@@ -6,6 +6,10 @@
     line-height: 2 !important;
 }
 
+.right {
+    text-align: right !important;
+}
+
 @media only screen and (max-width: 576px) {
     .justify-content-xs-center {
         -webkit-box-pack: center !important;
@@ -13,4 +17,12 @@
         justify-content: center !important;
         text-align: center;
     }
+
+    .text-sm-justify {
+text-align: justify !important;
+    }
+}
+
+.fs-fix-28 {
+    font-size: 28px !important;
 }
