@@ -78,28 +78,28 @@ var repTeams = document.getElementById('repTeams');
 
 for (let i = 0; i < pjNameIdForRowLeft.length; i++) {
     repTeams.innerHTML += (
-        '<div class="row mt-2" >' +
-        '<div class="col-md-6 col-sm-12" style="cursor: pointer" onclick="openTeamDetailPage(' + i + ')">' +
+        '<div class="row mt-4" >' +
+        '<div class="col-md-6 col-sm-12">' +
         '<div class="row  justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 my-auto right">' +
         '<img src="./images/2020-HKBCOL-Finalists/uni/' + imgLeft[i] + '" class="">' +
         '</div>' +
         '<div class="col-8 my-auto">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeft[i] + '</b></p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100">  ' + pjNameIdForRowLeft[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-14 textBlack w-100">  ' + pjNameIdForRowLeft[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">' + uniRowLeft[i] + '</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12" style="cursor: pointer" onclick="openTeamDetailPage2(' + i + ')">' +
+        '<div class="col-md-6 col-sm-12">' +
         '<div class="row  justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 my-auto right">' +
         '<img src="./images/2020-HKBCOL-Finalists/uni/' + imgRight[i] + '" class="">' +
         '</div>' +
         '<div class="col-8 my-auto">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRight[i] + '</b></p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100">  ' + pjNameForRowRight[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-14 textBlack w-100">  ' + pjNameForRowRight[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">' + uniRowRight[i] + '</p>' +
         '</div>' +
         '</div>' +
