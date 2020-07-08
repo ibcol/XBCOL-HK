@@ -51,7 +51,7 @@ var teamNameRowRight = [
     'Blockchain Health Credentials',
     'Fintech Passionate',
     'ILBC',
-    'PChain',
+    'BCrew',
     'The Spearheads',
     'WM'
 ];
@@ -60,7 +60,7 @@ var pjNameForRowRight = [
     'Blockchain Health Credentials',
     'SmartLending',
     'TrustLand',
-    'BCred: A Blockchain Platform for Academic Credential',
+    'BCred: A Blockchain Solution for Academic Credentials',
     'Spearchain',
     'Blockchain-based Organizational Whistleblowing System'
 ];
